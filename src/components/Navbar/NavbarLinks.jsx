@@ -18,8 +18,8 @@ const NavbarLinks = () => {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-130}
-              to={link.section}
+              offset={-100} 
+              to={link.section} 
               className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
             >
               {link.link}

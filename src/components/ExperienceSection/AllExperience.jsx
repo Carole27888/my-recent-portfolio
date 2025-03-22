@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
 import SingleExperience from './SingleExperience'; 
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
@@ -37,17 +39,24 @@ const experiences = [
 
 const AllExperience = () => {
   return (
-    <div className='flex md:flex-row sm:flex-col items-center justify-between'>
+    <div className="flex md:flex-row sm:flex-col items-center justify-between">
       {experiences.map((experience, index) => (
         <React.Fragment key={index}> {/* Move key here */}
           <SingleExperience experience={experience} />
-          {index < 2 ? (  // Arrow only after the first two experiences
-            <FaArrowRight className="text-6xl text-orange lg:block sm:hidden" />
-          ) : null}
+          {index < 2 && (  // Only show the arrow for the first two experiences
+            <motion.div
+              variants={fadeIn("right", 0.4)} // Add motion here for arrow animation
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.7 }}
+            >
+              <FaArrowRight className="text-6xl text-orange lg:block sm:hidden" />
+            </motion.div>
+          )}
         </React.Fragment>
       ))}
     </div>
   );
-}
+};
 
 export default AllExperience;

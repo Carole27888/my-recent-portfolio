@@ -6,45 +6,50 @@ const projects = [
     {
         name: "Pizza Hut",
         year: "2025",
-        align: "Right",
-        image: "./images/_(20).jpeg",
-        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
-
-    },
-    {
-        name: "Pizza Hut",
-        year: "2025",
-        align: "Left",
-        image: "./images/Laptop mockup(1).jpeg",
+        align: "right",  // Use lowercase
+        image: "./images/formyweb.jpeg",
         link: "https://pizzahut-project-phase2-1fns.vercel.app/",
     },
     {
         name: "Pizza Hut",
         year: "2025",
-        align: "Right",
+        align: "left",  // Use lowercase
+        image: "./images/webbsite.jpeg",
+        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
+    },
+    {
+        name: "Pizza Hut",
+        year: "2025",
+        align: "right",  // Use lowercase
         image: "./images/Laptop mockup.jpeg",
         link: "https://pizzahut-project-phase2-1fns.vercel.app/",
     },
     {
         name: "Pizza Hut",
         year: "2025",
-        align: "Left",
+        align: "left",  // Use lowercase
         image: "./images/mywebd.jpeg",
         link: "https://pizzahut-project-phase2-1fns.vercel.app/",
     },
 ]
 
-
-
-
 const ProjectsMain = () => {
   return (
-    <div>
-        <ProjectsText />
+    <div id="projects" className="max-w-[1200px] mx-auto px-4">
+      <ProjectsText />
 
-        <div>
-            <SingleProject />
-        </div>
+      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+          {projects.map((project, index) => (
+              <SingleProject
+                  key={index}
+                  name={project.name} 
+                  year={project.year} 
+                  align={project.align} // Ensure align is correctly passed as 'left' or 'right'
+                  image={project.image} 
+                  link={project.link} 
+              />
+          ))}
+      </div>
     </div>
   )
 }
