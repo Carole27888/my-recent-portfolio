@@ -1,19 +1,19 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../../framerMotion/variants";  // Adjust the path based on where variants.js is
-import { BsHexagon } from "react-icons/bs";  // Using BsHexagon for your icon
+import { fadeIn } from "../../framerMotion/variants";  
+import { BsHexagon } from "react-icons/bs";  
 
 const HeroPic = () => {
   return (
     <motion.div
-      variants={fadeIn("left", 0.2)}  // Animation variant for left fade-in
-      initial="hidden"  // Initial state is hidden
-      whileInView="show"  // While in view, show the element
-      viewport={{ once: false, amount: 0 }}  // Adjust viewport for trigger when element comes into view
+      variants={fadeIn("left", 0.2)}  
+      initial="hidden"  
+      whileInView="show"  
+      viewport={{ once: false, amount: 0 }}  
       className="h-full flex items-center justify-center"
     >
       <img
-        src="./images/Me.jpeg"  // Update to the correct path of your image
-        alt="Carole Mutemi"  // Alt text updated for your name
+        src="./images/Me.jpeg"  
+        alt="Carole Mutemi"  
         className="max-h-[450px] w-auto"
       />
 

@@ -9,7 +9,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
+        className="lg:text-2xl sm:text-xl uppercase text-lightGrey"
       >
         FULL STACK WEB DEVELOPER
       </motion.h2>
@@ -18,7 +18,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
+        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-red font-bold uppercase"
       >
         Carole <br className="sm:hidden md:block" />
         Mutemi
@@ -33,6 +33,23 @@ const HeroText = () => {
         Innovative full-stack developer crafting seamless, high-performance
         <br /> web experiences with precision and creativity.
       </motion.p>
+
+      {/* CV Section */}
+      <motion.div
+        variants={fadeIn("up", 0.8)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+        className="mt-6"
+      >
+        <a
+          href="./images/myresumecarole1.pdf" // Replace with the actual link to your CV
+          download
+          className="inline-block mt-4 px-6 py-3 bg-red text-white rounded-md hover:bg-orange-dark transition duration-300"
+        >
+          Download My CV
+        </a>
+      </motion.div>
     </div>
   );
 };
