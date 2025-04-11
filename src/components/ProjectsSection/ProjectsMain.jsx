@@ -6,28 +6,28 @@ const projects = [
     {
         name: "Pizza Hut",
         year: "2025",
-        align: "right",  // Use lowercase
-        image: "./images/formyweb.jpeg",
+        align: "right",  
+        image: "./images/pizz.jpeg",
         link: "https://pizzahut-project-phase2-1fns.vercel.app/",
+    },
+    {
+        name: "Real Estate",
+        year: "2025",
+        align: "left",  
+        image: "./images/realestate.jpeg",
+        link: "https://heaven-home-2.vercel.app/",
+    },
+    {
+        name: "Gym Project",
+        year: "2025",
+        align: "right",  
+        image: "./images/gym.jpeg",
+        link: "https://fitclub-1my.pages.dev/",
     },
     {
         name: "Pizza Hut",
         year: "2025",
-        align: "left",  // Use lowercase
-        image: "./images/webbsite.jpeg",
-        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
-    },
-    {
-        name: "Pizza Hut",
-        year: "2025",
-        align: "right",  // Use lowercase
-        image: "./images/Laptop mockup.jpeg",
-        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
-    },
-    {
-        name: "Pizza Hut",
-        year: "2025",
-        align: "left",  // Use lowercase
+        align: "left",  
         image: "./images/mywebd.jpeg",
         link: "https://pizzahut-project-phase2-1fns.vercel.app/",
     },
@@ -44,7 +44,7 @@ const ProjectsMain = () => {
                   key={index}
                   name={project.name} 
                   year={project.year} 
-                  align={project.align} // Ensure align is correctly passed as 'left' or 'right'
+                  align={project.align}
                   image={project.image} 
                   link={project.link} 
               />
