@@ -25,12 +25,26 @@ const projects = [
         link: "https://fitclub-1my.pages.dev/",
     },
     {
-        name: "Pizza Hut",
+        name: "Eventify",
         year: "2025",
         align: "left",  
-        image: "./images/mywebd.jpeg",
-        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
+        image: "./images/event.jpeg",
+        link: "https://event-project-rgv7.vercel.app/",
+
+
     },
+    {
+        name: "Ambulance App",
+        year: "2025",
+        align: "Right",  
+        image: "./images/ambulance.jpeg",
+        link: "https://ambulance-app-b741.onrender.com/",
+
+
+    },
+    
+        
+    
 ]
 
 const ProjectsMain = () => {
