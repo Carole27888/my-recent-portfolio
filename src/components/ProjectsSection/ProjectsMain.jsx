@@ -4,29 +4,17 @@ import SingleProject from './SingleProject'
 
 const projects = [
     {
-        name: "Pizza Hut",
-        year: "2025",
-        align: "right",  
-        image: "./images/pizz.jpeg",
-        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
-    },
-    {
-        name: "Real Estate",
-        year: "2025",
-        align: "left",  
-        image: "./images/realestate.jpeg",
-        link: "https://heaven-home-2.vercel.app/",
-    },
-    {
-        name: "Gym Project",
-        year: "2025",
-        align: "right",  
-        image: "./images/gym.jpeg",
-        link: "https://fitclub-1my.pages.dev/",
+        name: "Ambulance App",
+        year: "2024",
+        align: "Right",  
+        image: "./images/ambulance.jpeg",
+        link: "https://ambulance-app-b741.onrender.com/",
+
+
     },
     {
         name: "Eventify",
-        year: "2025",
+        year: "2024",
         align: "left",  
         image: "./images/event.jpeg",
         link: "https://event-project-rgv7.vercel.app/",
@@ -34,14 +22,31 @@ const projects = [
 
     },
     {
-        name: "Ambulance App",
-        year: "2025",
-        align: "Right",  
-        image: "./images/ambulance.jpeg",
-        link: "https://ambulance-app-b741.onrender.com/",
-
-
+        name: "Gym Project",
+        year: "2023",
+        align: "right",  
+        image: "./images/gym.jpeg",
+        link: "https://fitclub-1my.pages.dev/",
+        
     },
+    
+    {
+        name: "Pizza Hut",
+        year: "2025",
+        align: "left",  
+        image: "./images/pizz.jpeg",
+        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
+    },
+    {
+        name: "Real Estate",
+        year: "2025",
+        align: "right",  
+        image: "./images/realestate.jpeg",
+        link: "https://heaven-home-2.vercel.app/",
+    },
+    
+    
+    
     
         
     
