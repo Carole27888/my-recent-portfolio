@@ -4,9 +4,9 @@ import ContactMeRight from './ContactMeRight'
 
 const ContactMeMain = () => {
   return (
-    <div id='contact' className='max-w-[1200px] mx-auto items-center justify-center mt-[100px] px-4 '>
-        <h2 className='text-6xl text-red mb-10 text-center'>Contact Me</h2>
-        <div className='flex justify-between gap-24 bg-black p-8 rounded-2xl lg:flex-row sm:flex-col'>
+    <div id='contact' className='max-w-[1200px] mx-auto items-center justify-center mt-[100px] px-4 sm:px-6 md:px-8'>
+        <h2 className='text-5xl sm:text-6xl text-red mb-10 text-center'>Contact Me</h2>
+        <div className='flex justify-between gap-12 sm:gap-16 bg-black p-6 sm:p-8 rounded-2xl lg:flex-row sm:flex-col'>
             <ContactMeLeft />
             <ContactMeRight />
         </div>

@@ -54,10 +54,10 @@ const projects = [
 
 const ProjectsMain = () => {
   return (
-    <div id="projects" className="max-w-[1200px] mx-auto px-4">
+    <div id="projects" className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
       <ProjectsText />
 
-      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+      <div className="flex flex-col gap-20 max-w-full sm:max-w-[700px] md:max-w-[900px] mx-auto mt-12">
           {projects.map((project, index) => (
               <SingleProject
                   key={index}

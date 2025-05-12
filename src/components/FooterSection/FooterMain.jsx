@@ -23,7 +23,7 @@ const FooterMain = () => {
   const currentYear = new Date().getFullYear(); // Get the current year
 
   return (
-    <div className="px-4">
+    <div className="px-4 sm:px-6 md:px-8">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
       <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
         <p className="text-3xl text-lightGrey ">Carole Mutemi</p>

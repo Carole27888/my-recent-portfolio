@@ -6,33 +6,33 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: 'Frontend Developer',
-    company: 'XYZ Company',
-    duration: '2024- Present',
+    job: 'Freelance Frontend Developer',
+    company: 'Creative Freelancing',
+    duration: '2024 - Present',
     Responsibilities: [
-      'Worked on the frontend of the website',
-      'Worked with the design team to implement the design',
-      'Worked on the website to make it responsive'
+      'Developed responsive web applications for diverse clients',
+      'Collaborated with designers to create user-friendly interfaces',
+      'Implemented performance optimizations and accessibility improvements'
     ]
   },
   {
-    job: 'Backend Developer',
-    company: 'ABC Company',
-    duration: '2023-2024',
+    job: 'Freelance Backend Developer',
+    company: 'Innovative Freelance Solutions',
+    duration: '2024 - Present',
     Responsibilities: [
-      'Worked on the backend of the website',
-      'Worked with the design team to implement the design',
-      'Worked on the website to make it responsive'
+      'Built scalable backend APIs and services',
+      'Integrated third-party services and databases',
+      'Ensured security and data integrity in applications'
     ]
   },
   {
-    job: 'Full Stack Developer',
-    company: 'DEF Company',
-    duration: '2022-2023',
+    job: 'Full Stack Freelance Developer',
+    company: 'Freelance Tech Ventures',
+    duration: '2024 - Present',
     Responsibilities: [
-      'Worked on the frontend and backend of the website',
-      'Worked with the design team to implement the design',
-      'Worked on the website to make it responsive'
+      'Handled end-to-end development of web projects',
+      'Managed deployment and maintenance of client websites',
+      'Provided technical consulting and support'
     ]
   }
 ];

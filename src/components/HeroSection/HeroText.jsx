@@ -43,7 +43,7 @@ const HeroText = () => {
         className="mt-6"
       >
         <a
-          href="./images/myresumecarole1.pdf" // Replace with the actual link to your CV
+          href="./images/CAROLEMUTEMICV.pdf"
           download
           className="inline-block mt-4 px-6 py-3 bg-red text-white rounded-md hover:bg-orange-dark transition duration-300"
         >
