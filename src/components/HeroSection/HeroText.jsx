@@ -20,7 +20,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-red font-bold uppercase"
       >
-        Carole <br className="sm:hidden md:block" />
+        Caroline <br className="sm:hidden md:block" />
         Mutemi
       </motion.h1>
       <motion.p
@@ -43,7 +43,7 @@ const HeroText = () => {
         className="mt-6"
       >
         <a
-          href="./images/CAROLEMUTEMICV.pdf"
+          href="public/images/CAROLEMUTEMICV12.pdf"
           download
           className="inline-block mt-4 px-6 py-3 bg-red text-white rounded-md hover:bg-orange-dark transition duration-300"
         >

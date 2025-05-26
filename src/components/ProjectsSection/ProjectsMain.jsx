@@ -23,11 +23,25 @@ const projects = [
     },
     {
         name: "Gym Project",
-        year: "2023",
+        year: "2024",
         align: "right",  
         image: "./images/gym.jpeg",
         link: "https://fitclub-1my.pages.dev/",
         
+    },
+    {
+        name: "Pik-Cha",
+        year: "2025",
+        align: "left",
+        image: "../../images/pikcha.jpeg",
+        link: "https://pik-cha.onrender.com/",
+    },
+    {
+        name: "Cine Reserve",
+        year: "2025",
+        align: "right",
+        image: "./images/cine.jpeg",
+        link: "https://movie-site-khaki-six.vercel.app/",
     },
     
     {
