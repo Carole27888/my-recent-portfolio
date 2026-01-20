@@ -14,7 +14,7 @@ const HeroPic = () => {
       <img
         src="./images/Me.jpeg"  
         alt="Carole Mutemi"  
-        className="max-h-[450px] w-auto"
+        className="h-[260px] w-[260px] md:h-[360px] md:w-[360px] rounded-full object-cover"
       />
 
       <div className="absolute -z-10 flex justify-center items-center animate-pulse">

@@ -31,8 +31,10 @@ export default {
         red: "#ff0000",
         green: "#00ff00",
         blue: "#0000ff",
+        deepBlue: "#1b2635",
         yellow: "#ffff00",
         purple : "#800080",
+        deepOlive: "#2b2f24",
       },
       boxShadow: {
         cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",

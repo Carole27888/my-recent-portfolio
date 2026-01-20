@@ -6,33 +6,33 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: 'Freelance Frontend Developer',
-    company: 'Creative Freelancing',
-    duration: '2024 - Present',
+    job: 'Software Developer',
+    company: 'Labedan IT Solutions',
+    duration: 'June 2025 – Feb 2026',
     Responsibilities: [
-      'Developed responsive web applications for diverse clients',
-      'Collaborated with designers to create user-friendly interfaces',
-      'Implemented performance optimizations and accessibility improvements'
+      'Build enterprise full-stack systems with Next.js, TypeScript, Node.js, Express, and MongoDB',
+      'Architect auth, validation, routing, and role-based logic for complex workflows',
+      'Implement PDF engines, multi-step approvals, and automation tooling'
     ]
   },
   {
-    job: 'Freelance Backend Developer',
-    company: 'Innovative Freelance Solutions',
-    duration: '2024 - Present',
+    job: 'Backend Developer',
+    company: 'Enlabeler (Remote)',
+    duration: 'April 2024 – August 2024',
     Responsibilities: [
-      'Built scalable backend APIs and services',
-      'Integrated third-party services and databases',
-      'Ensured security and data integrity in applications'
+      'Developed automation pipelines for AI/ML training datasets',
+      'Built ingestion, validation, and annotation management scripts',
+      'Designed REST APIs and data queries for analysis and QA'
     ]
   },
   {
-    job: 'Full Stack Freelance Developer',
-    company: 'Freelance Tech Ventures',
-    duration: '2024 - Present',
+    job: 'Software Developer',
+    company: 'NexaTech Digital Solutions (Contract)',
+    duration: 'January 2024 – March 2024',
     Responsibilities: [
-      'Handled end-to-end development of web projects',
-      'Managed deployment and maintenance of client websites',
-      'Provided technical consulting and support'
+      'Built full-stack apps with React/Next.js, Node.js, SQL, and MongoDB',
+      'Designed optimized APIs, schemas, and workflow automation',
+      'Implemented dashboards, scheduled jobs, and integrations'
     ]
   }
 ];

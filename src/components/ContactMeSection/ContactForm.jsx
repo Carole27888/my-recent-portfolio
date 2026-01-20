@@ -52,7 +52,7 @@ const ContactForm = () => {
                     type="text"
                     placeholder="Your Name"
                     required
-                    className="h-12 rounded-lg bg-lightBrown px-2"
+                    className="h-12 rounded-lg bg-grey px-2"
                     value={name}
                     onChange={handlename}
                 />
@@ -61,7 +61,7 @@ const ContactForm = () => {
                     type="email"
                     placeholder="Your Email"
                     required
-                    className="h-12 rounded-lg bg-lightBrown px-2"
+                    className="h-12 rounded-lg bg-grey px-2"
                     value={email}
                     onChange={handleEmail}
                 />
@@ -69,7 +69,7 @@ const ContactForm = () => {
                     name="message"
                     placeholder="Message"
                     required
-                    className="rounded-lg bg-lightBrown p-2"
+                    className="rounded-lg bg-grey p-2"
                     value={message}
                     onChange={handleMessage}
                 />
