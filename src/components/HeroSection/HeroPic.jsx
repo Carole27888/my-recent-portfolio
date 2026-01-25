@@ -9,7 +9,7 @@ const HeroPic = () => {
       initial="hidden"  
       whileInView="show"  
       viewport={{ once: false, amount: 0 }}  
-      className="h-full flex items-center justify-center"
+      className="relative h-full flex items-center justify-center"
     >
       <img
         src="./images/Me.jpeg"  
@@ -20,7 +20,7 @@ const HeroPic = () => {
       <div className="absolute -z-10 flex justify-center items-center animate-pulse">
         {/* Icon with animation */}
         <BsHexagon
-          className="md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite]"
+          className="h-[360px] w-[360px] sm:h-[420px] sm:w-[420px] md:h-[520px] md:w-[520px] text-cyan blur-md animate-[spin_20s_linear_infinite]"
         />
       </div>
     </motion.div>
