@@ -6,33 +6,35 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: 'Software Developer',
-    company: 'Labedan IT Solutions',
-    duration: 'June 2025 – Feb 2026',
+    job: 'Virtual Assistant',
+    company: 'Red Espionage',
+    duration: '6 months',
     Responsibilities: [
-      'Build enterprise full-stack systems with Next.js, TypeScript, Node.js, Express, and MongoDB',
-      'Architect auth, validation, routing, and role-based logic for complex workflows',
-      'Implement PDF engines, multi-step approvals, and automation tooling'
+      'Inbox support, client follow-ups, and admin tasks',
+      'File organization and CRM updates',
+      'Content scheduling and basic Canva design',
+      'Social media inbox and engagement support'
     ]
   },
   {
-    job: 'Backend Developer',
-    company: 'Enlabeler (Remote)',
-    duration: 'April 2024 – August 2024',
+    job: 'VA & Social Media Manager',
+    company: 'Hayek Studios',
+    duration: 'June 2025 - January 2026',
     Responsibilities: [
-      'Developed automation pipelines for AI/ML training datasets',
-      'Built ingestion, validation, and annotation management scripts',
-      'Designed REST APIs and data queries for analysis and QA'
+      'Content calendar planning and scheduling',
+      'DM outreach and lead follow-ups',
+      'Weekly updates and SOP-based workflows',
+      'SMM role: posting, engagement, and community replies'
     ]
   },
   {
-    job: 'Software Developer',
-    company: 'NexaTech Digital Solutions (Contract)',
-    duration: 'January 2024 – March 2024',
+    job: 'Process Highlights',
+    company: 'How I Work',
+    duration: 'Ongoing',
     Responsibilities: [
-      'Built full-stack apps with React/Next.js, Node.js, SQL, and MongoDB',
-      'Designed optimized APIs, schemas, and workflow automation',
-      'Implemented dashboards, scheduled jobs, and integrations'
+      'Align on goals, voice, and SOPs',
+      'Set up calendars, CRM fields, and folders',
+      'Deliver clear updates and next steps'
     ]
   }
 ];
@@ -41,11 +43,11 @@ const AllExperience = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between">
       {experiences.map((experience, index) => (
-        <React.Fragment key={index}> {/* Move key here */}
+        <React.Fragment key={index}>
           <SingleExperience experience={experience} />
-          {index < 2 && (  // Only show the arrow for the first two experiences
+          {index < 2 && (
             <motion.div
-              variants={fadeIn("right", 0.4)} // Add motion here for arrow animation
+              variants={fadeIn("right", 0.4)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.7 }}

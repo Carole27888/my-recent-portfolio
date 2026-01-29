@@ -25,14 +25,14 @@ const SingleProject = ({ name, year, align, image, link }) => {
               align === "left" ? "md:justify-start" : "md:justify-end"
             }`}
           >
-            view<HiArrowTopRightOnSquare />
+            view sample<HiArrowTopRightOnSquare />
           </a>
         </div>
         
         
         <div className="max-h-[220px] max-w-full sm:max-w-[300px] md:max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-red">
           <div className="hidden md:block w-full h-full opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500"></div>
-          <img src={image} alt="website image" className="w-full h-full" />
+          <img src={image} alt="portfolio sample" className="w-full h-full" />
         </div>
       </div>
     </div>

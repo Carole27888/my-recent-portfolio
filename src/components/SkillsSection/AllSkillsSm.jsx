@@ -1,55 +1,40 @@
 import React from 'react';
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiTailwindcss } from "react-icons/si";
-import { FaGit } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaFigma } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { FaFlask } from "react-icons/fa";
+import { FaCommentDots } from "react-icons/fa";
+import { SiAirtable } from "react-icons/si";
+import { SiCanva } from "react-icons/si";
+import { SiDropbox } from "react-icons/si";
+import { SiGoogledrive } from "react-icons/si";
+import { SiHubspot } from "react-icons/si";
+import { SiZoho } from "react-icons/si";
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
+    skill: "Canva",
+    icon: SiCanva,
   },
   {
-    skill: "CSS",
-    icon: FaCss3Alt,
+    skill: "Airtable",
+    icon: SiAirtable,
   },
   {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
+    skill: "TextMagic",
+    icon: FaCommentDots,
   },
   {
-    skill: "React JS",
-    icon: RiReactjsLine,
+    skill: "HubSpot",
+    icon: SiHubspot,
   },
   {
-    skill: "Tailwind",
-    icon: SiTailwindcss,
+    skill: "Zoho",
+    icon: SiZoho,
   },
   {
-    skill: "Git",
-    icon: FaGit,
+    skill: "Google Drive",
+    icon: SiGoogledrive,
   },
   {
-    skill: "GitHub",
-    icon: FaGithub,
-  },
-  {
-    skill: "Figma",
-    icon: FaFigma,
-  },
-  {
-    skill: "Python",
-    icon: FaPython,
-  },
-  {
-    skill: "Flask",
-    icon: FaFlask,
+    skill: "Dropbox",
+    icon: SiDropbox,
   },
 ];
 

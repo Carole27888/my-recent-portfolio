@@ -4,66 +4,33 @@ import SingleProject from './SingleProject'
 
 const projects = [
     {
-        name: "Ambulance App",
-        year: "2024",
-        align: "Right",  
-        image: "./images/ambulance.jpeg",
-        link: "https://ambulance-app-b741.onrender.com/",
-
-
-    },
-    {
-        name: "Eventify",
-        year: "2024",
-        align: "left",  
-        image: "./images/event.jpeg",
-        link: "https://event-project-rgv7.vercel.app/",
-
-
-    },
-    {
-        name: "Gym Project",
-        year: "2024",
+        name: "Year-Long Social Media Content Plan",
+        year: "Content Strategy",
         align: "right",  
-        image: "./images/gym.jpeg",
-        link: "https://fitclub-1my.pages.dev/",
-        
+        image: "./images/website-img-4.jpg",
+        link: "https://www.canva.com/design/DAG_z50IdHY/RGXCNKvDyZizqRtR4w9VrA/view?utm_content=DAG_z50IdHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdea04735ba",
     },
     {
-        name: "Pik-Cha",
-        year: "2025",
+        name: "Email Campaign Sample",
+        year: "Email Marketing",
+        align: "left",  
+        image: "./images/website-img-2.webp",
+        link: "https://www.canva.com/design/DAG_0Im-a6U/zcUzT6D9dIWoUMoNMao1WA/view?utm_content=DAG_0Im-a6U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h43c4ce2b54",
+    },
+    {
+        name: "Lead Follow-Up System",
+        year: "Service Business",
+        align: "right",  
+        image: "./images/website-img-3.jpg",
+        link: "#contact",
+    },
+    {
+        name: "Content Calendar Setup",
+        year: "Real Estate",
         align: "left",
-        image: "../../images/pikcha.jpeg",
-        link: "https://pik-cha.onrender.com/",
+        image: "./images/website-img-1.jpg",
+        link: "#contact",
     },
-    {
-        name: "Cine Reserve",
-        year: "2025",
-        align: "right",
-        image: "./images/cine.jpeg",
-        link: "https://movie-site-khaki-six.vercel.app/",
-    },
-    
-    {
-        name: "Pizza Hut",
-        year: "2025",
-        align: "left",  
-        image: "./images/pizz.jpeg",
-        link: "https://pizzahut-project-phase2-1fns.vercel.app/",
-    },
-    {
-        name: "Real Estate",
-        year: "2025",
-        align: "right",  
-        image: "./images/realestate.jpeg",
-        link: "https://heaven-home-2.vercel.app/",
-    },
-    
-    
-    
-    
-        
-    
 ]
 
 const ProjectsMain = () => {

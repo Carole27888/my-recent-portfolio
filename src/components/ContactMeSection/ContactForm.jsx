@@ -67,7 +67,7 @@ const ContactForm = () => {
                 />
                 <textarea
                     name="message"
-                    placeholder="Message"
+                    placeholder="Tell me about your needs, timeline, and tools."
                     required
                     className="rounded-lg bg-grey p-2"
                     value={message}

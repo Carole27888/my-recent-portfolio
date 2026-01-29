@@ -13,7 +13,7 @@ const HeroPic = () => {
     >
       <img
         src="./images/Me.jpeg"  
-        alt="Caroline Mutemi"  
+        alt="Profile photo"  
         className="h-[260px] w-[260px] md:h-[360px] md:w-[360px] rounded-full object-cover"
       />
 

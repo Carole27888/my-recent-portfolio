@@ -9,7 +9,7 @@ const ContactInfo = () => {
     <div className='flex flex-col gap-4 text-white '>
        <SingleInfo text= "cmutemi27@gmail.com" Image={MdOutlineMail} />
          <SingleInfo text= "+254795052260" Image={FaPhone} />
-         <SingleInfo text= "Nairobi, Kenya" Image={MdLocationPin} />
+         <SingleInfo text= "Nairobi" Image={MdLocationPin} />
     </div>
   )
 }

@@ -1,10 +1,11 @@
 import { Link } from "react-scroll";
 
 const links = [
-  { link: "About Me", section: "about" },
-  { link: "Skills", section: "skills" },
-  { link: "Experience", section: "experience" },
-  { link: "Projects", section: "projects" },
+  { link: "About", section: "about" },
+  { link: "Tools", section: "skills" },
+  { link: "Services", section: "experience" },
+  { link: "Portfolio", section: "projects" },
+  { link: "Testimonials", section: "testimonials" },
   { link: "Contact", section: "contact" },
 ];
 

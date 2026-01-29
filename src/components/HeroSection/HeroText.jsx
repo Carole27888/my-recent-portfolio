@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-xl lg:text-2xl uppercase text-lightGrey"
       >
-        FULL STACK WEB DEVELOPER
+        VIRTUAL ASSISTANT & SOCIAL MEDIA MANAGER
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -20,8 +20,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-4xl md:text-[2.8rem] lg:text-6xl text-red font-bold uppercase"
       >
-        Caroline <br className="hidden md:block" />
-        Mutemi
+        Carole
       </motion.h1>
       <motion.p
         variants={fadeIn("up", 0.6)}
@@ -30,8 +29,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-white"
       >
-        Innovative full-stack developer crafting seamless, high-performance
-        <br /> web experiences with precision and creativity.
+        I support busy teams and creators with organized, consistent,
+        <br /> and responsive day-to-day operations.
       </motion.p>
 
       {/* CV Section */}
@@ -43,11 +42,10 @@ const HeroText = () => {
         className="mt-6"
       >
         <a
-          href="public/images/CAROLINEMUTEMI11CV(1).pdf"
-          download
+          href="#contact"
           className="inline-block mt-4 px-6 py-3 bg-red text-white rounded-md hover:bg-orange-dark transition duration-300"
         >
-          Download My CV
+          Let's Work Together
         </a>
       </motion.div>
     </div>
