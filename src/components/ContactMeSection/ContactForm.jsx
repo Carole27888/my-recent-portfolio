@@ -5,7 +5,8 @@ const ContactForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [success, setSuccess] = useState('');
+    const [status, setStatus] = useState('idle'); // idle | sending | success | error
+    const [statusMessage, setStatusMessage] = useState('');
 
     const handlename = (e) => {
         setName(e.target.value);
@@ -21,9 +22,11 @@ const ContactForm = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setStatus('sending');
+        setStatusMessage('');
 
         emailjs
-            .sendForm('service_n28pef3', 'template_21pgq1m', form.current, {
+            .sendForm('service_057vkfl', 'template_21pgq1m', form.current, {
                 publicKey: 'FzG-6ifmIbi76vaEz',
             })
             .then(
@@ -31,17 +34,24 @@ const ContactForm = () => {
                     setName('');
                     setEmail('');
                     setMessage('');
-                    setSuccess('Message sent successfully');
+                    setStatus('success');
+                    setStatusMessage('Message sent successfully.');
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
+                    setStatus('error');
+                    setStatusMessage('Message failed to send. Please try again.');
                 }
             );
     };
 
     return (
         <div>
-            <p className='text-cyan'>{success}</p>
+            {statusMessage && (
+                <p className={status === 'error' ? 'text-red' : 'text-cyan'}>
+                    {statusMessage}
+                </p>
+            )}
             <form
                 className='flex flex-col gap-4 text-white'
                 ref={form}
@@ -67,7 +77,7 @@ const ContactForm = () => {
                 />
                 <textarea
                     name="message"
-                    placeholder="Tell me about your needs, timeline, and tools."
+                    placeholder="Message"
                     required
                     className="rounded-lg bg-grey p-2"
                     value={message}
@@ -75,9 +85,10 @@ const ContactForm = () => {
                 />
                 <button
                     type="submit" // Submit the form when clicked
-                    className="w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:bg-darkCyan bg-cyan transition-all duration-500"
+                    className="w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:bg-darkCyan bg-cyan transition-all duration-500 disabled:opacity-60 disabled:cursor-not-allowed"
+                    disabled={status === 'sending'}
                 >
-                    Send
+                    {status === 'sending' ? 'Sending...' : 'Send'}
                 </button>
             </form>
         </div>
