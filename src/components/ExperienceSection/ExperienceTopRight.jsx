@@ -6,9 +6,11 @@ const ExperienceTopRight = () => {
         <p className="text-lg text-center text-lightGrey">  
           <span className="font-bold text-white">Experience</span>
           <br />
-          Red Espionage - Virtual Assistant (6 months)
+          3 years total (February 2023 - Present)
           <br />
-          Hayek Studios - VA & SMM (June 2025 - January 2026)
+          Red Espionage - Virtual Assistant (February 2023 - May 2024)
+          <br />
+          Hayek Studios - VA & SMM (June 2024 - Present)
           <br />
           <span className="font-bold text-white">Services</span>
           <br />

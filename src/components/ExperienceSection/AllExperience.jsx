@@ -8,7 +8,7 @@ const experiences = [
   {
     job: 'Virtual Assistant',
     company: 'Red Espionage',
-    duration: '6 months',
+    duration: 'February 2023 - May 2024',
     Responsibilities: [
       'Inbox support, client follow-ups, and admin tasks',
       'File organization and CRM updates',
@@ -19,7 +19,7 @@ const experiences = [
   {
     job: 'VA & Social Media Manager',
     company: 'Hayek Studios',
-    duration: 'June 2025 - January 2026',
+    duration: 'June 2024 - Present',
     Responsibilities: [
       'Content calendar planning and scheduling',
       'DM outreach and lead follow-ups',
