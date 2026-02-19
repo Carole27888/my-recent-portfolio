@@ -18,11 +18,11 @@ const projects = [
         link: "https://www.canva.com/design/DAG_0Im-a6U/zcUzT6D9dIWoUMoNMao1WA/view?utm_content=DAG_0Im-a6U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h43c4ce2b54",
     },
     {
-        name: "Lead Follow-Up System",
+        name: "Social media Managing",
         year: "Service Business",
         align: "right",  
         image: "./images/website-img-3.jpg",
-        link: "#contact",
+        link: "https://drive.google.com/drive/folders/1uzfDMtpO4t6YTr7D_UZ-sZ0xRpOa469x?usp=drive_link",
     },
     {
         name: "Content Calendar Setup",
