@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectsText from './ProjectsText'
 import SingleProject from './SingleProject'
+import hsExecutivePdf from '../ExperienceSection/HS EXECUTIVE.pdf'
 
 const projects = [
     {
@@ -30,6 +31,13 @@ const projects = [
         align: "left",
         image: "./images/website-img-1.jpg",
         link: "#contact",
+    },
+    {
+        name: "Executive Summary Presentation",
+        // year: "Email Management",
+        align: "right",
+        image: "./images/_ (10).jpeg",
+        link: hsExecutivePdf,
     },
 ]
 
