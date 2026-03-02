@@ -12,9 +12,9 @@ const NavbarMain = () => {
   }
   return (
     <nav className="max-w-[1300px] mx-auto w-full px-4 fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2">
-      <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center p-4 sm:p-6 rounded-r-full rounded-l-full border-red border-[0.5px]">
+      <div className="relative flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center p-4 sm:p-6 rounded-r-full rounded-l-full border-red border-[0.5px]">
         <NavbarLogo />
-        <div className = { `${menuOpen ? 'block' : 'hidden'} lg:block`}>
+        <div className={`${menuOpen ? "block" : "hidden"} absolute top-[calc(100%+0.5rem)] left-0 w-full lg:static lg:w-auto lg:block`}>
           <NavbarLinks />
         </div>
         <NavbarBtn />

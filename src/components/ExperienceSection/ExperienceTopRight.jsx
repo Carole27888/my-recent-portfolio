@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExperienceTopRight = () => {
   return (
-    <div className="xl:w-[25%] lg:w-[30%] border border-lightBrown p-4 rounded-xl">
+    <div className="w-full sm:w-[80%] md:w-[50%] lg:w-[30%] xl:w-[25%] border border-lightBrown p-4 rounded-xl">
         <p className="text-lg text-center text-lightGrey">  
           <span className="font-bold text-white">Experience</span>
           <br />

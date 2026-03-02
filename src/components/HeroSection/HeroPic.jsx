@@ -14,13 +14,13 @@ const HeroPic = () => {
       <img
         src="./images/Me.jpeg"  
         alt="Profile photo"  
-        className="h-[260px] w-[260px] md:h-[360px] md:w-[360px] rounded-full object-cover"
+        className="h-[clamp(180px,55vw,360px)] w-[clamp(180px,55vw,360px)] rounded-full object-cover"
       />
 
       <div className="absolute -z-10 flex justify-center items-center animate-pulse">
         {/* Icon with animation */}
         <BsHexagon
-          className="h-[360px] w-[360px] sm:h-[420px] sm:w-[420px] md:h-[520px] md:w-[520px] text-cyan blur-md animate-[spin_20s_linear_infinite]"
+          className="h-[clamp(260px,78vw,520px)] w-[clamp(260px,78vw,520px)] text-cyan blur-md animate-[spin_20s_linear_infinite]"
         />
       </div>
     </motion.div>
