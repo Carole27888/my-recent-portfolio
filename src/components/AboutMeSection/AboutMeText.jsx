@@ -9,7 +9,7 @@ const aboutMeText = () => {
         I have experience with photography and real estate teams, and I also work across other industries.
         I handle content scheduling, DM outreach, lead follow-up, admin support, CRM updates, file organization, and basic Canva design.
         <br />
-        Tools I use: Canva, Airtable, TextMagic, HubSpot, Zoho, Google Drive, and Dropbox.
+        Tools I use: Canva, Airtable, TextMagic, HubSpot, Zoho, Google Drive, Dropbox, QuickBooks, and Ramp.
         I'm reliable, detail-oriented, SOP-driven, and known for consistent communication.
         <br />
         Availability: 30-40 hours per week, flexible.

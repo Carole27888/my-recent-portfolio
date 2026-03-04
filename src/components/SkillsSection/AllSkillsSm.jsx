@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaCommentDots } from "react-icons/fa";
+import { FaCalculator } from "react-icons/fa";
+import { FaCreditCard } from "react-icons/fa";
 import { SiAirtable } from "react-icons/si";
 import { SiCanva } from "react-icons/si";
 import { SiDropbox } from "react-icons/si";
@@ -35,6 +37,14 @@ const skills = [
   {
     skill: "Dropbox",
     icon: SiDropbox,
+  },
+  {
+    skill: "QuickBooks",
+    icon: FaCalculator,
+  },
+  {
+    skill: "Ramp",
+    icon: FaCreditCard,
   },
 ];
 
