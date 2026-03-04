@@ -7,6 +7,8 @@ import { SiCanva } from "react-icons/si";
 import { SiDropbox } from "react-icons/si";
 import { SiGoogledrive } from "react-icons/si";
 import { SiHubspot } from "react-icons/si";
+import { SiTrello } from "react-icons/si";
+import { SiAsana } from "react-icons/si";
 import { SiZoho } from "react-icons/si";
 
 const skills = [
@@ -37,6 +39,14 @@ const skills = [
   {
     skill: "Dropbox",
     icon: SiDropbox,
+  },
+  {
+    skill: "Trello",
+    icon: SiTrello,
+  },
+  {
+    skill: "Asana",
+    icon: SiAsana,
   },
   {
     skill: "QuickBooks",
