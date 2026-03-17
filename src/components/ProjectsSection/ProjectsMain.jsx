@@ -12,6 +12,20 @@ const projects = [
         link: "https://www.canva.com/design/DAG_z50IdHY/RGXCNKvDyZizqRtR4w9VrA/view?utm_content=DAG_z50IdHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdea04735ba",
     },
     {
+        name: "Leads Generation",
+        year: "Lead Generation",
+        align: "left",
+        image: "./images/LEADS.jpeg",
+        link: "/images/LEADS GENERATION (1).pdf",
+    },
+    {
+        name: "CRM",
+        year: "HubSpot",
+        align: "right",
+        image: "./images/HUBSPOT.jpeg",
+        link: "/images/CRM1.pdf",
+    },
+    {
         name: "Email Campaign Sample",
         year: "Email Marketing",
         align: "left",  
