@@ -29,8 +29,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-white"
       >
-        I support busy teams and creators with organized, consistent,
-        <br /> and responsive day-to-day operations.
+        I support busy teams and creators with organized systems,
+        <br /> consistent communication, and responsive day-to-day operations.
       </motion.p>
 
       {/* CV Section */}
@@ -42,10 +42,11 @@ const HeroText = () => {
         className="mt-6"
       >
         <a
-          href="#contact"
+          href="/images/mycvsmm%20(3).pdf"
+          download="Carole-Mutemi-CV.pdf"
           className="inline-block mt-4 px-6 py-3 bg-red text-white rounded-md hover:bg-orange-dark transition duration-300"
         >
-          Let's Work Together
+          Download my CV
         </a>
       </motion.div>
     </div>
