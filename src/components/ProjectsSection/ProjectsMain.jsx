@@ -37,13 +37,13 @@ const projects = [
         year: "Service Business",
         align: "right",  
         image: "./images/SCCC.png",
-        link: "images/SMMM.pdf",
+        link: "./images/SMMM (1).pdf",
     },
     {
-        name: "Content Calendar Setup",
+        name: "Calendar Management",
         year: "Real Estate",
         align: "left",
-        image: "./images/website-img-1.jpg",
+        image: "./images/calendar.png",
         link: "#contact",
     },
     {
