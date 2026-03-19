@@ -36,8 +36,8 @@ const projects = [
         name: "Social media Managing",
         year: "Service Business",
         align: "right",  
-        image: "./images/website-img-3.jpg",
-        link: "https://drive.google.com/drive/folders/1uzfDMtpO4t6YTr7D_UZ-sZ0xRpOa469x?usp=drive_link",
+        image: "./images/SCCC.png",
+        link: "images/SMMM.pdf",
     },
     {
         name: "Content Calendar Setup",
