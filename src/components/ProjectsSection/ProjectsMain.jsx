@@ -36,7 +36,7 @@ const projects = [
         name: "Social media Managing",
         year: "Service Business",
         align: "right",  
-        image: "./images/SCCC.png",
+        image: "./images/smm12.png",
         link: "./images/SMMM (1).pdf",
     },
     {
