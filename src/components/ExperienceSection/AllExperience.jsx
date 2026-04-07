@@ -1,62 +1,59 @@
 import React from 'react';
-import { FaArrowRight } from "react-icons/fa";
-import SingleExperience from './SingleExperience'; 
-import { motion } from "framer-motion";
-import { fadeIn } from "../../framerMotion/variants";
+import SingleExperience from './SingleExperience';
 
 const experiences = [
   {
-    job: 'Virtual Assistant',
-    company: 'Red Espionage',
-    duration: 'February 2023 - May 2024',
-    Responsibilities: [
-      'Inbox support, client follow-ups, and admin tasks',
-      'File organization and CRM updates',
-      'Content scheduling and basic Canva design',
-      'Social media inbox and engagement support'
-    ]
+    year: '2023',
+    title: 'Stepped Into Client Support',
+    label: 'Red Espionage',
+    description:
+      'Started with the quiet backbone work every business needs: inbox support, follow-ups, organized files, and task tracking that kept the day from slipping through the cracks.',
+    skills: ['Inbox management', 'Client follow-ups', 'Admin support'],
   },
   {
-    job: 'VA & Social Media Manager',
-    company: 'Hayek Studios',
-    duration: 'June 2024 - Present',
-    Responsibilities: [
-      'Content calendar planning and scheduling',
-      'DM outreach and lead follow-ups',
-      'Weekly updates and SOP-based workflows',
-      'SMM role: posting, engagement, and community replies'
-    ]
+    year: '2024',
+    title: 'Found My Rhythm In Content Systems',
+    label: 'From admin to audience-facing support',
+    description:
+      'Moved beyond coordination into content calendars, Canva assets, and posting workflows. I liked turning scattered ideas into a schedule that actually moved.',
+    skills: ['Content scheduling', 'Canva support', 'Workflow setup'],
   },
   {
-    job: 'Process Highlights',
-    company: 'How I Work',
-    duration: 'Ongoing',
-    Responsibilities: [
-      'Align on goals, voice, and SOPs',
-      'Set up calendars, CRM fields, and folders',
-      'Deliver clear updates and next steps'
-    ]
-  }
+    year: '2025 - Current',
+    title: 'Still Growing At Hayek Studios',
+    label: 'Current role',
+    description:
+      'I am still at Hayek Studios, supporting both social media and operations. The role keeps stretching in the best way: engagement support, lead follow-ups, cleaner SOPs, and dependable updates that help the business move without chaos.',
+    skills: [
+      'Social media support',
+      'Lead management',
+      'SOP-driven execution',
+      'Clear communication',
+      'Consistency',
+    ],
+  },
 ];
 
 const AllExperience = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between">
-      {experiences.map((experience, index) => (
-        <React.Fragment key={index}>
-          <SingleExperience experience={experience} />
-          {index < 2 && (
-            <motion.div
-              variants={fadeIn("right", 0.4)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0.7 }}
-            >
-              <FaArrowRight className="hidden lg:block text-6xl text-orange" />
-            </motion.div>
-          )}
-        </React.Fragment>
-      ))}
+    <div className="relative mt-14">
+      <div className="experience-grid pointer-events-none absolute inset-0 rounded-[32px] opacity-70" />
+      <div className="absolute left-5 top-10 bottom-10 w-px bg-gradient-to-b from-transparent via-cyan to-transparent sm:left-7" />
+
+      <div className="relative rounded-[32px] border border-lightBrown/60 bg-[#101927]/80 px-5 py-8 shadow-[0_0_60px_rgba(21,209,233,0.08)] backdrop-blur-sm sm:px-8 sm:py-10">
+        <div className="mb-10 flex items-center gap-4">
+          <span className="font-special text-sm uppercase tracking-[0.45em] text-cyan/70">
+            // Timeline
+          </span>
+          <div className="h-px flex-1 bg-gradient-to-r from-cyan/40 to-transparent" />
+        </div>
+
+        <div className="space-y-8 sm:space-y-12">
+          {experiences.map((experience, index) => (
+            <SingleExperience key={index} experience={experience} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import AllExperience from "./AllExperience";
 import ExperienceText from "./ExperienceText";
-import ExperienceTop from "./ExperienceTop";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -15,16 +14,15 @@ const ExperienceMain = () => {
       >
         <ExperienceText />
       </motion.div>
+
       <motion.div
-        variants={fadeIn("down", 0.5)}
+        variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }}
+        viewport={{ once: false, amount: 0.1 }}
       >
-        <ExperienceTop />
+        <AllExperience />
       </motion.div>
-      <div className="hidden lg:block w-full h-1 mt-4 bg-lightBrown"></div>
-      <AllExperience />
     </div>
   );
 };

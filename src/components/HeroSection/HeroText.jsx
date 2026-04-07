@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-xl lg:text-2xl uppercase text-lightGrey"
       >
-        VIRTUAL ASSISTANT & SOCIAL MEDIA MANAGER
+        Virtual Assistant for Busy Brands & Creators
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -29,8 +29,9 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-white"
       >
-        I support busy teams and creators with organized systems,
-        <br /> consistent communication, and responsive day-to-day operations.
+        I help busy brands breathe a little easier behind the scenes.
+        <br /> From admin support to content coordination, I bring calm systems,
+        <br /> clear communication, and the kind of consistency that keeps things moving.
       </motion.p>
 
       {/* CV Section */}
@@ -46,7 +47,7 @@ const HeroText = () => {
           download="Carole-Mutemi-CV.pdf"
           className="inline-block mt-4 px-6 py-3 bg-red text-white rounded-md hover:bg-orange-dark transition duration-300"
         >
-          Download my CV
+          View My CV
         </a>
       </motion.div>
     </div>

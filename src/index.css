@@ -7,3 +7,13 @@
 body {
   @apply bg-deepBlue
 }
+
+.experience-grid {
+  background-image:
+    linear-gradient(rgba(136, 229, 240, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(136, 229, 240, 0.06) 1px, transparent 1px),
+    radial-gradient(circle at top left, rgba(21, 209, 233, 0.18), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(251, 151, 24, 0.12), transparent 24%);
+  background-position: center;
+  background-size: 36px 36px, 36px 36px, auto, auto;
+}
