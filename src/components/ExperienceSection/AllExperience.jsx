@@ -5,7 +5,7 @@ const experiences = [
   {
     year: '2023',
     title: 'Stepped Into Client Support',
-    label: 'Red Espionage',
+    label: 'Red Espionage, Tennessee',
     description:
       'Started with the quiet backbone work every business needs: inbox support, follow-ups, organized files, and task tracking that kept the day from slipping through the cracks.',
     skills: ['Inbox management', 'Client follow-ups', 'Admin support'],
@@ -21,7 +21,7 @@ const experiences = [
   {
     year: '2025 - Current',
     title: 'Still Growing At Hayek Studios',
-    label: 'Current role',
+    label: 'Hayek Studios, New York',
     description:
       'I am still at Hayek Studios, supporting both social media and operations. The role keeps stretching in the best way: engagement support, lead follow-ups, cleaner SOPs, and dependable updates that help the business move without chaos.',
     skills: [
