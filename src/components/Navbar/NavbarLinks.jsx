@@ -2,7 +2,8 @@ import { Link } from "react-scroll";
 
 const links = [
   { link: "About", section: "about" },
-  { link: "Tools", section: "skills" },
+  { link: "Skills", section: "skills" },
+  { link: "Education", section: "education" },
   { link: "Services", section: "experience" },
   { link: "Portfolio", section: "projects" },
   { link: "Testimonials", section: "testimonials" },
@@ -11,7 +12,7 @@ const links = [
 
 const NavbarLinks = () => {
   return (
-    <ul className="flex flex-col lg:flex-row gap-6 text-white font-body text-center text-xl lg:text-md bg-cyan/30 backdrop-blur-lg lg:bg-black w-full lg:w-auto py-4 rounded-2xl lg:rounded-none px-4 lg:px-0">
+    <ul className="flex flex-col lg:flex-row gap-5 text-white font-body text-center text-lg lg:text-base bg-cyan/30 backdrop-blur-lg lg:bg-black w-full lg:w-auto py-3 rounded-2xl lg:rounded-none px-4 lg:px-0">
       {links.map((link, index) => {
         return (
           <li key={index} className="group">
@@ -19,8 +20,8 @@ const NavbarLinks = () => {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-100} 
-              to={link.section} 
+              offset={-90}
+              to={link.section}
               className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
             >
               {link.link}

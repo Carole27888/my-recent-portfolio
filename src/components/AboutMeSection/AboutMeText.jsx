@@ -15,7 +15,7 @@ const aboutMeText = () => {
           <span className="text-orange font-semibold">Core support:</span> I handle content scheduling, DM outreach, lead follow-up, admin support, CRM updates, file organization, and basic Canva design.
         </p>
         <p>
-          <span className="text-orange font-semibold">How I work:</span> I learn new tools quickly, keep digital workflows organized, and work comfortably across modern business platforms.
+          <span className="text-orange font-semibold">How I work:</span> I am tech-savvy, learn new tools quickly, keep digital workflows organized, and work comfortably across modern business platforms.
         </p>
         <p>
           <span className="text-orange font-semibold">Tools:</span> Canva, Airtable, TextMagic, HubSpot, Zoho, Google Drive, Dropbox, Trello, Asana, QuickBooks, and Ramp.

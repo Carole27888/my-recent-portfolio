@@ -1,81 +1,14 @@
 import React from 'react';
-import { FaCommentDots } from "react-icons/fa";
-import { FaCalculator } from "react-icons/fa";
-import { FaCreditCard } from "react-icons/fa";
-import { SiAirtable } from "react-icons/si";
-import { SiCanva } from "react-icons/si";
-import { SiDropbox } from "react-icons/si";
-import { SiGoogledrive } from "react-icons/si";
-import { SiHubspot } from "react-icons/si";
-import { SiTrello } from "react-icons/si";
-import { SiAsana } from "react-icons/si";
-import { SiZoho } from "react-icons/si";
 import SingleSkills from './SingleSkills';
-
-
-const skills = [
-  {
-    skill: "Canva",
-    icon: SiCanva,
-  },
-  {
-    skill: "Airtable",
-    icon: SiAirtable,
-  },
-  {
-    skill: "TextMagic",
-    icon: FaCommentDots,
-  },
-  {
-    skill: "HubSpot",
-    icon: SiHubspot,
-  },
-  {
-    skill: "Zoho",
-    icon: SiZoho,
-  },
-  {
-    skill: "Google Drive",
-    icon: SiGoogledrive,
-  },
-  {
-    skill: "Dropbox",
-    icon: SiDropbox,
-  },
-  {
-    skill: "Trello",
-    icon: SiTrello,
-  },
-  {
-    skill: "Asana",
-    icon: SiAsana,
-  },
-  {
-    skill: "QuickBooks",
-    icon: FaCalculator,
-  },
-  {
-    skill: "Ramp",
-    icon: FaCreditCard,
-  },
-];
+import { skillsCards } from './skillsData';
 
 const AllSkills = () => {
   return (
-    <div>
-        <div className="flex items-center justify-center relative gap-1 max-w-[1200px] mx-auto">
-
-        {skills.map((item, index) => {
-          return (
-            
-              <SingleSkills
-                key={index}
-                text={item.skill}
-                imgSvg={<item.icon />}
-              />
-            
-          );
-        })}
+    <div className="w-full">
+      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        {skillsCards.map((item, index) => (
+          <SingleSkills key={index} title={item.title} items={item.items} />
+        ))}
       </div>
     </div>
   );

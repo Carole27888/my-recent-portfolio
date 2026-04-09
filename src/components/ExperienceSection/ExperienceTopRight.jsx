@@ -8,9 +8,9 @@ const ExperienceTopRight = () => {
           <br />
           3 years total (February 2023 - Present)
           <br />
-          Red Espionage, Tennessee - Virtual Assistant (February 2023 - May 2024)
+          Virtual Assistant role (February 2023 - May 2024)
           <br />
-          Hayek Studios, New York - VA & SMM (June 2024 - Present)
+          VA & SMM role (June 2024 - Present)
           <br />
           <span className="font-bold text-white">Services</span>
           <br />

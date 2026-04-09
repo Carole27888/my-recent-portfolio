@@ -7,6 +7,7 @@ import AboutMeMain from './components/AboutMeSection/AboutMeMain'
 import HelperSection from './components/HelperSection'
 import SkillsMain from './components/SkillsSection/SkillsMain'
 import SubSkills from './components/SkillsSection/SubSkills'
+import EducationMain from './components/EducationSection/EducationMain'
 import ExperienceMain from './components/ExperienceSection/ExperienceMain'
 import ProjectsMain from './components/ProjectsSection/ProjectsMain'
 import ContactMeMain from './components/ContactMeSection/ContactMeMain'
@@ -24,11 +25,12 @@ function App() {
       <HeroGradient />
       <SubHeroSection />
       <AboutMeMain />
-      <HelperSection />
       <SkillsMain />
       <SubSkills />
+      <EducationMain />
       <ExperienceMain />
       <ProjectsMain />
+      <HelperSection />
       <ContactMeMain />
       <FooterMain />
     </main>

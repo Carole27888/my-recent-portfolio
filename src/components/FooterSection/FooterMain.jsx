@@ -11,6 +11,10 @@ const FooterMain = () => {
       section: "skills",
     },
     {
+      name: "Education",
+      section: "education",
+    },
+    {
       name: "Services",
       section: "experience",
     },
