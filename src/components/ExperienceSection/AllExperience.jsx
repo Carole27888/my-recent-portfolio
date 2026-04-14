@@ -12,11 +12,11 @@ const experiences = [
   },
   {
     year: '2024',
-    title: 'Found My Rhythm In Content Systems',
-    label: 'From admin to audience-facing support',
+    title: 'Supported Red Espionage',
+    label: 'Brand support and content coordination',
     description:
-      'Moved beyond coordination into content calendars, Canva assets, and posting workflows. I liked turning scattered ideas into a schedule that actually moved.',
-    skills: ['Content scheduling', 'Canva support', 'Workflow setup'],
+      'Worked with Red Espionage in 2024, supporting content planning, coordination, and day-to-day execution that helped keep the brand moving cleanly.',
+    skills: ['Content planning', 'Brand coordination', 'Execution support'],
   },
   {
     year: '2025 - Current',
