@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiArrowTopRightOnSquare } from "react-icons/hi2";
 
-const SingleProject = ({ name, year, align, image, link }) => {
+const SingleProject = ({ name, year, align, image, link, description, badge, newTab }) => {
   return (
     <div>
       <div className={`flex w-full flex-col-reverse items-center gap-4 sm:gap-2 ${
@@ -19,8 +19,21 @@ const SingleProject = ({ name, year, align, image, link }) => {
           >
             {year}
           </h2>
+          {description && (
+            <p className={`text-sm text-gray-300 max-w-xs sm:text-center ${
+              align === "left" ? "md:text-left" : "md:text-right"
+            }`}>
+              {description}
+            </p>
+          )}
+          {badge && (
+            <span className="text-xs font-semibold text-orange border border-orange rounded-full px-3 py-1 mt-1">
+              {badge}
+            </span>
+          )}
           <a
             href={link}
+            {...(newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
             className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-center ${
               align === "left" ? "md:justify-start" : "md:justify-end"
             }`}

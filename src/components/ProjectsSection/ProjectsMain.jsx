@@ -53,6 +53,26 @@ const projects = [
         image: "./images/_ (10).jpeg",
         link: hsExecutivePdf,
     },
+    {
+        name: "Client Onboarding SOP",
+        year: "Operations & Admin",
+        align: "left",
+        image: "./images/clarity co.png",
+        link: "/images/Clarity_Coaching_Co_Onboarding_SOP.pdf",
+        description: "Designed and documented a full client onboarding workflow for a UK business coaching company, reducing onboarding time from 3 days to 4 hours. Includes email templates, CRM tracking system, quality checklist, and tools guide.",
+        badge: "3 Days to 4 Hours",
+        newTab: true,
+    },
+    {
+        name: "Instagram Reels Growth Strategy",
+        year: "Social Media Management",
+        align: "right",
+        image: "./images/hayek-reels.png",
+        link: "/images/Hayek_Studios_Instagram_Reels_Strategy.pdf",
+        description: "Developed and executed an Instagram Reels strategy for Hayek Studios, a wedding photography studio. One Reel alone generated 157,591 views, 83,858 reach, 6,581 interactions, and 10 days 20 hours of watch time.",
+        badge: "157K Views",
+        newTab: true,
+    },
 ]
 
 const ProjectsMain = () => {
@@ -64,11 +84,14 @@ const ProjectsMain = () => {
           {projects.map((project, index) => (
               <SingleProject
                   key={index}
-                  name={project.name} 
-                  year={project.year} 
+                  name={project.name}
+                  year={project.year}
                   align={project.align}
-                  image={project.image} 
-                  link={project.link} 
+                  image={project.image}
+                  link={project.link}
+                  description={project.description}
+                  badge={project.badge}
+                  newTab={project.newTab}
               />
           ))}
       </div>
