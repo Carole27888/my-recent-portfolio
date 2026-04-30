@@ -18,7 +18,7 @@ const aboutMeText = () => {
           <span className="text-orange font-semibold">How I work:</span> I am tech-savvy, learn new tools quickly, keep digital workflows organized, and work comfortably across modern business platforms.
         </p>
         <p>
-          <span className="text-orange font-semibold">Tools:</span> Canva, Airtable, TextMagic, HubSpot, Zoho, Google Drive, Dropbox, Trello, Asana, QuickBooks, and Ramp.
+          <span className="text-orange font-semibold">Tools:</span> Canva, Airtable, TextMagic, HubSpot, Zoho, Go High Level, Google Drive, Dropbox, Trello, Asana, QuickBooks, and Ramp.
         </p>
         <p>
           <span className="text-orange font-semibold">Work style:</span> Reliable, detail-oriented, SOP-driven, and known for clear, consistent communication.

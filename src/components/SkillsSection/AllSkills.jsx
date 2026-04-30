@@ -1,13 +1,29 @@
 import React from 'react';
+import { FaCommentDots, FaCalculator, FaCreditCard, FaRocket } from "react-icons/fa";
+import { SiAirtable, SiCanva, SiDropbox, SiGoogledrive, SiHubspot, SiTrello, SiAsana, SiZoho } from "react-icons/si";
 import SingleSkills from './SingleSkills';
-import { skillsCards } from './skillsData';
+
+const skills = [
+  { skill: "Canva", icon: SiCanva },
+  { skill: "Airtable", icon: SiAirtable },
+  { skill: "TextMagic", icon: FaCommentDots },
+  { skill: "HubSpot", icon: SiHubspot },
+  { skill: "Zoho", icon: SiZoho },
+  { skill: "Go High Level", icon: FaRocket },
+  { skill: "Google Drive", icon: SiGoogledrive },
+  { skill: "Dropbox", icon: SiDropbox },
+  { skill: "Trello", icon: SiTrello },
+  { skill: "Asana", icon: SiAsana },
+  { skill: "QuickBooks", icon: FaCalculator },
+  { skill: "Ramp", icon: FaCreditCard },
+];
 
 const AllSkills = () => {
   return (
-    <div className="w-full">
-      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-        {skillsCards.map((item, index) => (
-          <SingleSkills key={index} title={item.title} items={item.items} />
+    <div>
+      <div className="flex items-center justify-center flex-wrap gap-4 max-w-[1200px] mx-auto">
+        {skills.map((item, index) => (
+          <SingleSkills key={index} text={item.skill} imgSvg={<item.icon />} />
         ))}
       </div>
     </div>
