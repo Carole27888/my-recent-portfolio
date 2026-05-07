@@ -4,10 +4,10 @@ const NavbarLogo = () => {
   return (
     <div>
       <h1 className='hidden md:block text-white text-2xl'>
-        Virtual Assistant & SMM
+        Executive Assistant
       </h1>
       <h1 className="block md:hidden text-white font-special font-extrabold text-3xl sm:text-4xl">
-        VA
+        EA
       </h1>
     </div>
   )

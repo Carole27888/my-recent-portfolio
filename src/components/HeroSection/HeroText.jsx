@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-xl lg:text-2xl uppercase text-lightGrey"
       >
-        Virtual Assistant for Busy Brands & Creators
+        Executive Assistant for Busy Brands & Leaders
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}

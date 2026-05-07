@@ -6,7 +6,7 @@ const aboutMeText = () => {
       <h2 className="text-6xl text-red mb-10">About Me</h2>
       <div className="text-white space-y-4 max-w-[720px]">
         <p>
-          <span className="text-orange font-semibold">What I do:</span> I'm a Virtual Assistant & Social Media Manager who supports a wide range of brands and service-based businesses.
+          <span className="text-orange font-semibold">What I do:</span> I'm an Executive Assistant who supports a wide range of brands and service-based businesses.
         </p>
         <p>
           <span className="text-orange font-semibold">Industry experience:</span> I have experience working with photography and real estate teams, while also supporting clients across other industries.

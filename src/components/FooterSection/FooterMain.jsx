@@ -34,7 +34,7 @@ const FooterMain = () => {
     <div className="px-4 sm:px-6 md:px-8">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
       <div className="hidden md:flex justify-between mt-4 max-w-[1200px] mx-auto">
-        <p className="text-3xl text-lightGrey ">Virtual Assistant & SMM</p>
+        <p className="text-3xl text-lightGrey ">Executive Assistant</p>
         <ul className="flex gap-4 text-lightGrey text-xl">
           {footerLinks.map((item, index) => {
             return (
@@ -55,7 +55,7 @@ const FooterMain = () => {
         </ul>
       </div>
       <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
-        © {currentYear} Virtual Assistant & Social Media Manager | All Rights Reserved.
+        © {currentYear} Executive Assistant | All Rights Reserved.
       </p>
     </div>
   );
