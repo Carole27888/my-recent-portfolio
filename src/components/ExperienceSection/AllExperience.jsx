@@ -19,6 +19,21 @@ const experiences = [
     skills: ['Content planning', 'Brand coordination', 'Execution support'],
   },
   {
+    year: 'April 2026 - Current',
+    title: 'Building The Systems At Clarity Coaching Co',
+    label: 'Virtual Assistant — Operations & Client Onboarding',
+    description:
+      'Designed and own the full client onboarding system, cutting the time from first inquiry to first session from three days to under four hours. Managing CRM records in Airtable, handling all client communications, scheduling discovery calls, coordinating contracts and payments, and keeping operations running without the coach having to chase a single thing.',
+    skills: [
+      'Client onboarding',
+      'SOP design',
+      'Airtable CRM',
+      'Email communications',
+      'Calendly scheduling',
+      'Stripe payments',
+    ],
+  },
+  {
     year: '2025 - Current',
     title: 'Still Growing At Hayek Studios',
     label: 'Ongoing client support role',
