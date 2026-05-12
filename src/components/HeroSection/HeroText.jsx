@@ -9,7 +9,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-xl lg:text-2xl uppercase text-lightGrey"
+        className="text-xl lg:text-2xl uppercase text-white font-bold"
       >
         Executive Assistant for Busy Brands & Leaders
       </motion.h2>

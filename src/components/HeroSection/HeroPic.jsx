@@ -17,12 +17,11 @@ const HeroPic = () => {
         className="h-[clamp(180px,55vw,360px)] w-[clamp(180px,55vw,360px)] rounded-full object-cover"
       />
 
-      <div className="absolute -z-10 flex justify-center items-center animate-pulse">
-        {/* Icon with animation */}
+      {/* <div className="absolute -z-10 flex justify-center items-center animate-pulse">
         <BsHexagon
           className="h-[clamp(260px,78vw,520px)] w-[clamp(260px,78vw,520px)] text-cyan blur-md animate-[spin_20s_linear_infinite]"
         />
-      </div>
+      </div> */}
     </motion.div>
   );
 };
