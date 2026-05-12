@@ -1,4 +1,4 @@
-
+import { Routes, Route } from 'react-router-dom'
 import NavbarMain from './components/Navbar/NavbarMain'
 import HeroMain from './components/HeroSection/HeroMain'
 import HeroGradient from './components/HeroSection/HeroGradient'
@@ -12,15 +12,12 @@ import ExperienceMain from './components/ExperienceSection/ExperienceMain'
 import ProjectsMain from './components/ProjectsSection/ProjectsMain'
 import ContactMeMain from './components/ContactMeSection/ContactMeMain'
 import FooterMain from './components/FooterSection/FooterMain'
+import BlogList from './components/BlogSection/BlogList'
+import BlogPost from './components/BlogSection/BlogPost'
 
-
-
-function App() {
-  
-
+function HomePage() {
   return (
-    <main className="font-body">
-      <NavbarMain />
+    <>
       <HeroMain />
       <HeroGradient />
       <SubHeroSection />
@@ -33,9 +30,20 @@ function App() {
       <HelperSection />
       <ContactMeMain />
       <FooterMain />
+    </>
+  )
+}
+
+function App() {
+  return (
+    <main className="font-body">
+      <NavbarMain />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/blog" element={<BlogList />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+      </Routes>
     </main>
-      
-    
   )
 }
 

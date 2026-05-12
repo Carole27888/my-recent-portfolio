@@ -8,6 +8,22 @@ body {
   @apply bg-deepBlue
 }
 
+.prose-blog {
+  @apply text-white leading-relaxed;
+}
+.prose-blog h2 { @apply text-2xl text-orange font-bold mt-10 mb-4; }
+.prose-blog h3 { @apply text-xl text-cyan font-semibold mt-8 mb-3; }
+.prose-blog p  { @apply mb-5 text-white/90; }
+.prose-blog ul { @apply list-disc pl-6 mb-5 space-y-1 text-white/90; }
+.prose-blog ol { @apply list-decimal pl-6 mb-5 space-y-1 text-white/90; }
+.prose-blog li { @apply leading-relaxed; }
+.prose-blog strong { @apply text-orange font-semibold; }
+.prose-blog em    { @apply text-cyan italic; }
+.prose-blog a     { @apply text-cyan underline hover:text-orange transition-colors duration-300; }
+.prose-blog blockquote { @apply border-l-4 border-cyan pl-4 italic text-lightGrey my-6; }
+.prose-blog code  { @apply bg-darkGrey/60 text-cyan px-1.5 py-0.5 rounded text-sm; }
+.prose-blog hr    { @apply border-lightBrown my-8; }
+
 .experience-grid {
   background-image:
     linear-gradient(rgba(136, 229, 240, 0.06) 1px, transparent 1px),
