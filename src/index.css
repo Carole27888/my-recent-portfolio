@@ -5,8 +5,49 @@
 @tailwind utilities;
 
 body {
-  @apply bg-deepBlue
+  @apply bg-deepBlue;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* ── Light mode overrides ── */
+html[data-theme="light"] body {
+  background-color: #fdf8f5;
+  color: #2c2523;
+}
+
+html[data-theme="light"] nav {
+  background-color: rgba(253, 248, 245, 0.97) !important;
+}
+
+html[data-theme="light"] h1,
+html[data-theme="light"] h2,
+html[data-theme="light"] h3,
+html[data-theme="light"] p,
+html[data-theme="light"] li,
+html[data-theme="light"] span {
+  color: #2c2523;
+}
+
+html[data-theme="light"] .text-white  { color: #2c2523 !important; }
+html[data-theme="light"] .text-lightGrey { color: #645550 !important; }
+
+html[data-theme="light"] .bg-deepBlue,
+html[data-theme="light"] .bg-black\/80,
+html[data-theme="light"] .bg-black\/95,
+html[data-theme="light"] .bg-\[\#101927\]\/80 { background-color: #fdf8f5 !important; }
+
+html[data-theme="light"] .bg-darkGrey\/40,
+html[data-theme="light"] .bg-darkGrey\/30 { background-color: rgba(200, 185, 178, 0.3) !important; }
+
+html[data-theme="light"] .border-lightBrown,
+html[data-theme="light"] .border-lightBrown\/60 { border-color: #b0a098 !important; }
+
+html[data-theme="light"] .backdrop-blur-lg { background-color: rgba(253, 248, 245, 0.92) !important; }
+
+html[data-theme="light"] .prose-blog,
+html[data-theme="light"] .prose-blog p,
+html[data-theme="light"] .prose-blog li  { color: #2c2523 !important; }
+html[data-theme="light"] .prose-blog code { background-color: rgba(200, 185, 178, 0.4) !important; }
 
 .prose-blog {
   @apply text-white leading-relaxed;
