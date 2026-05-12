@@ -23,7 +23,7 @@ const projects = [
         year: "Operations & Admin",
         align: "right",
         image: "./images/onboarding.png",
-        link: "/images/Client_Onboarding_SOP_Portfolio.pdf",
+        link: "/images/WM_Client_Onboarding_SOP_Portfolio.pdf",
         description: "Designed and documented a full client onboarding workflow for a UK business coaching company, reducing onboarding time from 3 days to 4 hours. Includes email templates, CRM tracking system, quality checklist, and tools guide.",
         badge: "3 Days to 4 Hours",
         newTab: true,
@@ -33,7 +33,7 @@ const projects = [
         year: "Social Media Management",
         align: "left",
         image: "./images/rell stra.png",
-        link: "/images/Instagram_Reels_Strategy_Portfolio.pdf",
+        link: "/images/WM_Instagram_Reels_Strategy_Portfolio.pdf",
         description: "Developed and executed an Instagram Reels strategy for Hayek Studios, a wedding photography studio. One Reel alone generated 157,591 views, 83,858 reach, 6,581 interactions, and 10 days 20 hours of watch time.",
         badge: "157K Views",
         newTab: true,
@@ -43,7 +43,7 @@ const projects = [
         year: "HubSpot",
         align: "right",
         image: "./images/HUBSPOT.jpeg",
-        link: "/images/CRM1.pdf",
+        link: "/images/WM_CRM_Portfolio (1).pdf",
     },
     {
         name: "Email Campaign Sample",
@@ -71,7 +71,7 @@ const projects = [
         year: "Lead Generation",
         align: "right",
         image: "./images/LEADS.jpeg",
-        link: "/images/LEADS GENERATION (1).pdf",
+        link: "public/images/WM_Leads_Generation_Portfolio (1).pdf",
     },
 ]
 
