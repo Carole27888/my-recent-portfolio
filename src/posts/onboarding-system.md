@@ -3,6 +3,7 @@ title: How I Manage a Wedding Photography Studio's Instagram from Nairobi
 date: 2026-05-12
 excerpt: A behind-the-scenes look at how I manage Instagram for a New York wedding photography studio from Nairobi — content selection, Reels strategy, and the results that followed.
 slug: instagram-from-nairobi
+image: https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=1200&q=80
 ---
 
 *By Carole Mutemi | Virtual Assistant & Social Media Manager*

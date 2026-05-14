@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { getPostBySlug } from '../../utils/posts'
@@ -7,6 +8,22 @@ const BlogPost = () => {
   const { slug } = useParams()
   const post = getPostBySlug(slug)
   const url = typeof window !== 'undefined' ? window.location.href : ''
+
+  useEffect(() => {
+    if (!post) return
+    document.title = `${post.title} | Virtually Carole`
+    let metaDesc = document.querySelector('meta[name="description"]')
+    if (!metaDesc) {
+      metaDesc = document.createElement('meta')
+      metaDesc.name = 'description'
+      document.head.appendChild(metaDesc)
+    }
+    metaDesc.content = post.excerpt
+    return () => {
+      document.title = 'Virtually Carole'
+      if (metaDesc) metaDesc.remove()
+    }
+  }, [post])
 
   if (!post) {
     return (
@@ -25,7 +42,15 @@ const BlogPost = () => {
         ← Back to Blog
       </Link>
 
-      <p className="text-xs text-lightGrey uppercase tracking-widest mt-6 mb-2">{post.date}</p>
+      {post.image && (
+        <img
+          src={post.image}
+          alt={post.title}
+          className="w-full h-64 md:h-80 object-cover rounded-xl mt-6 mb-6"
+        />
+      )}
+
+      <p className="text-xs text-lightGrey uppercase tracking-widest mb-2">{post.date}</p>
       <h1 className="text-4xl md:text-5xl text-orange font-bold uppercase leading-tight mb-6">
         {post.title}
       </h1>

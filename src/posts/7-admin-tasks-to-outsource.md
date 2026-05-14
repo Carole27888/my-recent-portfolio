@@ -3,6 +3,7 @@ title: 7 Admin Tasks You Should Outsource to a Virtual Assistant Today
 date: 2026-05-14
 excerpt: Most small business owners spend hours every week on tasks that don't require their expertise. Here are 7 things you should stop doing yourself — starting today.
 slug: 7-admin-tasks-to-outsource
+image: https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80
 ---
 
 *By Carole Mutemi | Virtual Assistant & Social Media Manager*
