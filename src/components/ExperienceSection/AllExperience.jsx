@@ -47,6 +47,35 @@ const experiences = [
       'Consistency',
     ],
   },
+  // {
+  //   year: '2025 - Current',
+  //   title: 'Supporting Operations At Sun Shine Properties LLC',
+  //   label: 'Virtual Assistant — Real Estate Operations (Dubai)',
+  //   description:
+  //     'Providing virtual assistant support for a Dubai-based real estate company, managing client communications, coordinating property viewings, handling documentation, and keeping the back end organized so the sales team can focus on closing deals.',
+  //   skills: [
+  //     'Client communications',
+  //     'Appointment scheduling',
+  //     'Document management',
+  //     'CRM management',
+  //     'Admin support',
+  //   ],
+  // },
+  // {
+  //   year: '2025 - Current',
+  //   title: 'Running Content & Operations At CLK Properties Dubai',
+  //   label: 'Social Media Manager & Virtual Assistant (Dubai)',
+  //   description:
+  //     'Managing social media presence and virtual assistant duties for a Dubai real estate brand. Creating and scheduling property content, engaging with leads across platforms, handling inbox management, and supporting the team with day-to-day operational tasks that keep the business running smoothly.',
+  //   skills: [
+  //     'Social media management',
+  //     'Content creation',
+  //     'Lead engagement',
+  //     'Inbox management',
+  //     'Real estate marketing',
+  //     'Admin support',
+  //   ],
+  // },
 ];
 
 const AllExperience = () => {
