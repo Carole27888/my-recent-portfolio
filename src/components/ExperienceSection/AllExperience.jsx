@@ -11,7 +11,7 @@ const experiences = [
     skills: ['Inbox management', 'Client follow-ups', 'Admin support'],
   },
   {
-    year: '2024',
+    year: '2023 - 2024',
     title: 'Supported Red Espionage',
     label: 'Brand support and content coordination',
     description:
@@ -19,11 +19,11 @@ const experiences = [
     skills: ['Content planning', 'Brand coordination', 'Execution support'],
   },
   {
-    year: 'April 2026 - Current',
+    year: 'April 2025 - December 2025',
     title: 'Building The Systems At Clarity Coaching Co',
     label: 'Virtual Assistant — Operations & Client Onboarding',
     description:
-      'Designed and own the full client onboarding system, cutting the time from first inquiry to first session from three days to under four hours. Managing CRM records in Airtable, handling all client communications, scheduling discovery calls, coordinating contracts and payments, and keeping operations running without the coach having to chase a single thing.',
+      'Designed and owned the full client onboarding system, cutting the time from first inquiry to first session from three days to under four hours. Managed CRM records in Airtable, handled all client communications, scheduled discovery calls, coordinated contracts and payments, and kept operations running without the coach having to chase a single thing.',
     skills: [
       'Client onboarding',
       'SOP design',
@@ -34,7 +34,7 @@ const experiences = [
     ],
   },
   {
-    year: '2025 - Current',
+    year: 'January 2025 - Current',
     title: 'Still Growing At Hayek Studios',
     label: 'Ongoing client support role',
     description:
@@ -48,7 +48,7 @@ const experiences = [
     ],
   },
   {
-    year: 'January 2026 - Current',
+    year: 'December 2025 - Current',
     title: 'Supporting Dubai Real Estate Brokerages',
     label: 'Virtual Assistant — Real Estate Operations (Dubai)',
     description:

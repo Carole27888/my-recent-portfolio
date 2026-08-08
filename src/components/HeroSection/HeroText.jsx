@@ -43,8 +43,9 @@ const HeroText = () => {
         className="mt-6"
       >
         <a
-          href="/images/mycvsmm%20(3).pdf"
-          download="Carole-Mutemi-CV.pdf"
+          href="/images/Caroline-Mutemi-CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block mt-4 px-6 py-3 bg-red text-white rounded-md hover:bg-orange-dark transition duration-300"
         >
           View My CV
