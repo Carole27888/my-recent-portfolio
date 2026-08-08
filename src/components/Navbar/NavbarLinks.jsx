@@ -6,6 +6,7 @@ const scrollLinks = [
   { link: "Skills", section: "skills" },
   { link: "Education", section: "education" },
   { link: "Services", section: "experience" },
+  { link: "Real Estate", section: "real-estate" },
   { link: "Portfolio", section: "projects" },
   { link: "Testimonials", section: "testimonials" },
   { link: "Contact", section: "contact" },

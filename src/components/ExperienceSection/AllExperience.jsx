@@ -49,31 +49,12 @@ const experiences = [
   },
   {
     year: 'January 2026 - Current',
-    title: 'Supporting Operations At Sun Shine Properties LLC',
+    title: 'Supporting Dubai Real Estate Brokerages',
     label: 'Virtual Assistant — Real Estate Operations (Dubai)',
     description:
-      'Providing virtual assistant support for a Dubai-based real estate company, listing and managing properties on Property Finder and Bayut, handling social media management, and covering general VA tasks that keep the back end organized so the sales team can focus on closing deals.',
-    skills: [
-      'Property Finder listings',
-      'Bayut listings',
-      'Social media management',
-      'Client communications',
-      'Admin support',
-    ],
-  },
-  {
-    year: 'January 2026 - Current',
-    title: 'Running Listings & Content At CLK Properties',
-    label: 'Virtual Assistant — Real Estate Operations (Dubai)',
-    description:
-      'Supporting a Dubai real estate brand as a virtual assistant, listing and managing properties on Property Finder and Bayut, running social media management, and handling general VA tasks that keep day-to-day operations moving smoothly.',
-    skills: [
-      'Property Finder listings',
-      'Bayut listings',
-      'Social media management',
-      'Client communications',
-      'Admin support',
-    ],
+      'Currently providing virtual assistant support for Dubai-based real estate brokerages, including Sun Shine Properties LLC and CLK Properties, alongside general VA work for clients in other industries.',
+    skills: ['Real estate VA support'],
+    link: { href: '#real-estate', text: 'See Real Estate for details' },
   },
 ];
 

@@ -73,6 +73,15 @@ const projects = [
         image: "./images/LEADS.jpeg",
         link: "public/images/WM_Leads_Generation_Portfolio (1).pdf",
     },
+    {
+        name: "Real Estate Listing & Compliance Support",
+        year: "Real Estate Operations (Dubai)",
+        align: "left",
+        image: "./images/realestate.jpeg",
+        link: "#contact",
+        description: "Supported Dubai-based real estate brokerages with listing management across Bayut and Property Finder, rental transaction documentation, and owner transfer paperwork, working within DED, ORN, and BRN compliance requirements.",
+        badge: "Bayut & Property Finder",
+    },
 ]
 
 const ProjectsMain = () => {

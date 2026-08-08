@@ -9,6 +9,7 @@ import SkillsMain from './components/SkillsSection/SkillsMain'
 import SubSkills from './components/SkillsSection/SubSkills'
 import EducationMain from './components/EducationSection/EducationMain'
 import ExperienceMain from './components/ExperienceSection/ExperienceMain'
+import RealEstateMain from './components/RealEstateSection/RealEstateMain'
 import ProjectsMain from './components/ProjectsSection/ProjectsMain'
 import ContactMeMain from './components/ContactMeSection/ContactMeMain'
 import FooterMain from './components/FooterSection/FooterMain'
@@ -26,6 +27,7 @@ function HomePage() {
       <SubSkills />
       <EducationMain />
       <ExperienceMain />
+      <RealEstateMain />
       <ProjectsMain />
       <HelperSection />
       <ContactMeMain />

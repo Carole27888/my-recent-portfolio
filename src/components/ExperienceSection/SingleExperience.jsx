@@ -2,6 +2,25 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../framerMotion/variants';
 
+const COMPANY_HIGHLIGHT_TERMS = ['Sun Shine Properties LLC', 'CLK Properties'];
+
+const companyHighlightPattern = new RegExp(
+  `(${COMPANY_HIGHLIGHT_TERMS.map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`,
+  'g'
+);
+
+const renderWithCompanyHighlights = (text) => {
+  return text.split(companyHighlightPattern).map((part, index) =>
+    COMPANY_HIGHLIGHT_TERMS.includes(part) ? (
+      <span key={index} className="font-semibold text-cyan">
+        {part}
+      </span>
+    ) : (
+      part
+    )
+  );
+};
+
 const SingleExperience = ({ experience }) => {
   return (
     <motion.article
@@ -27,7 +46,7 @@ const SingleExperience = ({ experience }) => {
         </p>
 
         <p className="mt-4 max-w-3xl text-base leading-8 text-lightGrey sm:text-lg">
-          {experience.description}
+          {renderWithCompanyHighlights(experience.description)}
         </p>
 
         <div className="mt-5 flex flex-wrap gap-3">
@@ -40,6 +59,15 @@ const SingleExperience = ({ experience }) => {
             </span>
           ))}
         </div>
+
+        {experience.link && (
+          <a
+            href={experience.link.href}
+            className="mt-5 inline-flex items-center gap-2 rounded-full border border-cyan bg-cyan/10 px-5 py-2 text-sm font-semibold text-cyan transition-all duration-300 hover:bg-cyan hover:text-black"
+          >
+            {experience.link.text}
+          </a>
+        )}
       </div>
     </motion.article>
   );
