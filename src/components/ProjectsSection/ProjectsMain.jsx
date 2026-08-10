@@ -82,6 +82,16 @@ const projects = [
         description: "Supported Dubai-based real estate brokerages with listing management across Bayut and Property Finder, rental transaction documentation, and owner transfer paperwork, working within DED, ORN, and BRN compliance requirements.",
         badge: "Bayut & Property Finder",
     },
+    {
+        name: "Dispatch Academy",
+        year: "Remote Truck Dispatch Course",
+        align: "right",
+        image: "./images/dispatch-academy.png",
+        link: "https://truck-disoatching.vercel.app/",
+        description: "Built a self-paced, 10-module course teaching the fundamentals of remote truck dispatching, from load boards and broker negotiations to documentation and rate calculation, drawing on hands-on experience with the tools involved.",
+        badge: "10 Modules",
+        newTab: true,
+    },
 ]
 
 const ProjectsMain = () => {
