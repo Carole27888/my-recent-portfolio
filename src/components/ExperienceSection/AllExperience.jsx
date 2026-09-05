@@ -48,11 +48,11 @@ const experiences = [
     ],
   },
   {
-    year: 'December 2025 - Current',
+    year: 'December 2025 - August 2026',
     title: 'Supporting Dubai Real Estate Brokerages',
     label: 'Virtual Assistant — Real Estate Operations (Dubai)',
     description:
-      'Providing virtual assistant support for Dubai-based real estate brokerages — listing management, compliance documentation, and CRM coordination — alongside general VA work for clients in other industries. Earlier brokerage engagements with Sun Shine Properties LLC and CLK Properties wrapped up in August 2026.',
+      'Provided virtual assistant support for Dubai-based real estate brokerages, including Sun Shine Properties LLC and CLK Properties — listing management, compliance documentation, and CRM coordination — alongside general VA work for clients in other industries.',
     skills: ['Real estate VA support'],
     link: { href: '#real-estate', text: 'See Real Estate for details' },
   },
