@@ -8,6 +8,7 @@ import HelperSection from './components/HelperSection'
 import SkillsMain from './components/SkillsSection/SkillsMain'
 import SubSkills from './components/SkillsSection/SubSkills'
 import EducationMain from './components/EducationSection/EducationMain'
+import CertificationsMain from './components/CertificationsSection/CertificationsMain'
 import ExperienceMain from './components/ExperienceSection/ExperienceMain'
 import RealEstateMain from './components/RealEstateSection/RealEstateMain'
 import ProjectsMain from './components/ProjectsSection/ProjectsMain'
@@ -26,6 +27,7 @@ function HomePage() {
       <SkillsMain />
       <SubSkills />
       <EducationMain />
+      <CertificationsMain />
       <ExperienceMain />
       <RealEstateMain />
       <ProjectsMain />
