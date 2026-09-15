@@ -1,13 +1,5 @@
 export const certifications = [
   {
-    title: 'Virtual Assistance Certificate',
-    issuer: 'ALX Africa',
-    date: 'June 2023',
-    image: './images/certificates/cert-alx-virtual-assistant.png',
-    description:
-      'Awarded on graduation from the ALX Virtual Assistant program after meeting all course and assessment requirements.',
-  },
-  {
     title: 'Becoming a Virtual Assistant in the US',
     issuer: 'Baltimore WIN Foundation',
     date: 'May 2026',
