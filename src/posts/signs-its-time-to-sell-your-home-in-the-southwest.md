@@ -58,6 +58,6 @@ There's no single answer that applies to every homeowner or every street. The ho
 
 ---
 
-*That's the sample. If you made it this far, you already have a sense of how I approach client content: clear structure, a real hook, no filler, and an ending that actually moves the reader toward doing something.*
+*That's the sample. I write blog content like this for real estate agencies and other service businesses as part of my virtual assistant work, researched, SEO-structured, and written in the client's voice rather than a generic template.*
 
-I write blog content like this for real estate agencies and other service businesses as part of my virtual assistant work — researched, SEO-structured, and written in the client's voice rather than a generic template. If that's something your business needs on a consistent schedule, you can see what full real estate VA support looks like in [Virtual Assistant for Real Estate: What to Delegate and Why It Works](/blog/virtual-assistant-for-real-estate), or [get in touch](https://virtuallycarole.com) to talk about your content.
+If you're looking for content support on an ongoing basis, you can read more about what real estate VA support looks like here: [Virtual Assistant for Real Estate: What to Delegate and Why It Works](/blog/virtual-assistant-for-real-estate), or [get in touch](https://virtuallycarole.com) to talk about your content needs.
