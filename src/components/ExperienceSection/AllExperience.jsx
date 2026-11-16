@@ -56,6 +56,14 @@ const experiences = [
     skills: ['Real estate VA support'],
     link: { href: '#real-estate', text: 'See Real Estate for details' },
   },
+  {
+    year: 'October 2026 - Present',
+    title: 'Coordinating Community Outreach At Breakaway Hoops',
+    label: 'Community Outreach Coordinator (Virtual Assistant) · Remote | Youth Sports, New York',
+    description:
+      'Managing parent communication for Private Training, Weekend Fundamental Clinics and Youth League programs through calls and SMS (JustCall), email and Slack. Build, audit and fix GoHighLevel workflows, including triggers, conditions, waits, internal notifications and SMS sequences, testing changes before they go live. Troubleshoot account and payment issues by tracing contact history, workflow execution logs and Stripe transactions in GHL. Manage contacts, tags and smart lists in GHL, and roster participants in SportsPlus. Track tasks and time in ClickUp and Clockify, and document workflow issues and fixes for management review.',
+    skills: ['GoHighLevel', 'JustCall', 'Slack', 'ClickUp', 'Clockify', 'SportsPlus', 'Stripe'],
+  },
 ];
 
 const AllExperience = () => {
