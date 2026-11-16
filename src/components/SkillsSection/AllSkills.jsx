@@ -1,28 +1,27 @@
 import React from 'react';
-import { FaCommentDots, FaCalculator, FaCreditCard, FaRocket, FaBasketballBall } from "react-icons/fa";
-import { SiAirtable, SiCanva, SiDropbox, SiGoogledrive, SiHubspot, SiTrello, SiAsana, SiZoho, SiSlack, SiClickup, SiClockify, SiStripe } from "react-icons/si";
-import JustCallIcon from './JustCallIcon';
+import { FaCommentDots, FaCreditCard, FaRocket, FaBasketballBall } from "react-icons/fa";
+import ToolLogo from './ToolLogo';
 import SingleSkills from './SingleSkills';
 
 const skills = [
-  { skill: "Canva", icon: SiCanva },
-  { skill: "Airtable", icon: SiAirtable },
+  { skill: "Canva", logo: "./images/tools/canva.svg" },
+  { skill: "Airtable", logo: "./images/tools/airtable.svg" },
   { skill: "TextMagic", icon: FaCommentDots },
-  { skill: "JustCall", icon: JustCallIcon },
-  { skill: "Slack", icon: SiSlack },
-  { skill: "HubSpot", icon: SiHubspot },
-  { skill: "Zoho", icon: SiZoho },
+  { skill: "JustCall", logo: "./images/justcall-logo.png" },
+  { skill: "Slack", logo: "./images/tools/slack.svg" },
+  { skill: "HubSpot", logo: "./images/tools/hubspot.svg" },
+  { skill: "Zoho", logo: "./images/tools/zoho.svg" },
   { skill: "Go High Level", icon: FaRocket },
   { skill: "SportsPlus", icon: FaBasketballBall },
-  { skill: "Google Drive", icon: SiGoogledrive },
-  { skill: "Dropbox", icon: SiDropbox },
-  { skill: "Trello", icon: SiTrello },
-  { skill: "Asana", icon: SiAsana },
-  { skill: "ClickUp", icon: SiClickup },
-  { skill: "Clockify", icon: SiClockify },
-  { skill: "QuickBooks", icon: FaCalculator },
+  { skill: "Google Drive", logo: "./images/tools/google-drive.svg" },
+  { skill: "Dropbox", logo: "./images/tools/dropbox.svg" },
+  { skill: "Trello", logo: "./images/tools/trello.svg" },
+  { skill: "Asana", logo: "./images/tools/asana.svg" },
+  { skill: "ClickUp", logo: "./images/tools/clickup.svg" },
+  { skill: "Clockify", logo: "./images/tools/clockify.svg" },
+  { skill: "QuickBooks", logo: "./images/tools/quickbooks.svg" },
   { skill: "Ramp", icon: FaCreditCard },
-  { skill: "Stripe", icon: SiStripe },
+  { skill: "Stripe", logo: "./images/tools/stripe.svg" },
 ];
 
 const AllSkills = () => {
@@ -30,7 +29,7 @@ const AllSkills = () => {
     <div>
       <div className="flex items-center justify-center flex-wrap gap-4 max-w-[1200px] mx-auto">
         {skills.map((item, index) => (
-          <SingleSkills key={index} text={item.skill} imgSvg={<item.icon />} />
+          <SingleSkills key={index} text={item.skill} imgSvg={item.logo ? <ToolLogo src={item.logo} name={item.skill} /> : <item.icon />} />
         ))}
       </div>
     </div>
